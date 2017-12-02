@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include layout="@layout/activity_title" />
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="0.5dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_got_other"
+            style="@style/selector_rbtn_yellow_line"
+            android:checked="true"
+            android:text="已获奖"/>
+        <RadioButton
+            android:id="@+id/rb_got_one_buy"
+            style="@style/selector_rbtn_yellow_line"
+            android:text="一元奖"/>
+    </RadioGroup>
+    <com.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

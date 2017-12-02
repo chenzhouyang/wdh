@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 取消游戏 -->
+	<key>cancel_game_title</key>
+	<string>取消游戏提示</string>
+	<key>cancel_game_content</key>
+	<string>确定取消游戏吗？</string>
+	<!-- 拘捕游戏战斗结果 -->
+	<key>battle_success</key>
+	<string>恭喜获得%s消费积分！</string>
+	<key>battle_success_minor</key>
+	<string>%s逃跑，带走大量消费积分，您获得%s消费积分！</string>
+	<key>battle_failed</key>
+	<string>不要灰心，请再接再厉！</string>
+	<key>battle_net_error</key>
+	<string>请检查网络。</string>
+	<!-- 小偷名字 -->
+	<key>thief_name_10</key>
+	<string>小偷胡一手</string>
+	<key>thief_name_50</key>
+	<string>盗贼江三贺</string>
+	<key>thief_name_100</key>
+	<string>强盗独孤六</string>
+</dict>
+</plist>

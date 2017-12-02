@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/local_server_title"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@mipmap/down_arrow_write"
+            android:gravity="center_vertical"
+            android:text="河南许昌"
+            android:textColor="#333333" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/shapes_yunajiao"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/image_search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:src="@mipmap/local_search" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:hint="请输入关键词"
+                android:background="@color/white"
+                android:inputType="number|text"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColorHint="#5d5d5d"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/life_postion"/>
+        <ImageView
+            android:id="@+id/img_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/lift_order"/>
+
+    </LinearLayout>
+
+    <com.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+            </android.support.v4.view.ViewPager>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/view_line"/>
+
+            <com.yskj.welcomeorchard.widget.NoScrollListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="#f2f2f2"
+                android:dividerHeight="2dp">
+
+            </com.yskj.welcomeorchard.widget.NoScrollListView>
+        </LinearLayout>
+    </com.pulltorefresh.library.PullToRefreshScrollView>
+</LinearLayout>

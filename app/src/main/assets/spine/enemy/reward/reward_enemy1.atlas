@@ -1,0 +1,125 @@
+
+reward_enemy1.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MON100391_SWORDMASTER_arm_L
+  rotate: false
+  xy: 298, 198
+  size: 80, 52
+  orig: 80, 52
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_arm_R
+  rotate: false
+  xy: 197, 88
+  size: 78, 57
+  orig: 78, 57
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_body
+  rotate: false
+  xy: 197, 147
+  size: 99, 103
+  orig: 99, 103
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_face_01
+  rotate: false
+  xy: 2, 2
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_face_02
+  rotate: true
+  xy: 501, 238
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_face_03
+  rotate: false
+  xy: 19, 4
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_foot_L
+  rotate: false
+  xy: 277, 91
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_foot_R
+  rotate: true
+  xy: 358, 152
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_hand_L
+  rotate: false
+  xy: 124, 21
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_hand_R
+  rotate: true
+  xy: 65, 19
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_head
+  rotate: false
+  xy: 2, 16
+  size: 61, 56
+  orig: 61, 56
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_hip
+  rotate: false
+  xy: 298, 149
+  size: 58, 47
+  orig: 58, 47
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_leg_L
+  rotate: true
+  xy: 442, 200
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_leg_R
+  rotate: false
+  xy: 380, 198
+  size: 60, 52
+  orig: 60, 52
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_mouth
+  rotate: true
+  xy: 415, 150
+  size: 46, 24
+  orig: 46, 24
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_tail
+  rotate: false
+  xy: 2, 84
+  size: 193, 166
+  orig: 193, 166
+  offset: 0, 0
+  index: -1
+MON100391_SWORDMASTER_weapon
+  rotate: false
+  xy: 2, 74
+  size: 185, 8
+  orig: 185, 8
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,7 @@
+attack
+demaged
+idle
+skill1
+skill2
+walk
+scale:0.3

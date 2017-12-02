@@ -1,0 +1,104 @@
+
+player1_effect.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian0001
+  rotate: false
+  xy: 2, 793
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0002
+  rotate: false
+  xy: 289, 793
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0003
+  rotate: false
+  xy: 576, 793
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0004
+  rotate: true
+  xy: 2, 506
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0005
+  rotate: true
+  xy: 2, 219
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0006
+  rotate: false
+  xy: 2, 2
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0007
+  rotate: true
+  xy: 219, 506
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0008
+  rotate: true
+  xy: 219, 219
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0009
+  rotate: false
+  xy: 289, 2
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0010
+  rotate: true
+  xy: 436, 506
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0011
+  rotate: true
+  xy: 436, 219
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0012
+  rotate: false
+  xy: 576, 2
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0013
+  rotate: false
+  xy: 653, 576
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1
+baodian0014
+  rotate: true
+  xy: 653, 289
+  size: 285, 215
+  orig: 285, 215
+  offset: 0, 0
+  index: -1

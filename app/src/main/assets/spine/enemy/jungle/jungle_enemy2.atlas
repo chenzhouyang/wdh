@@ -1,0 +1,104 @@
+
+jungle_enemy2.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MON100271_AXE MONSTER_arm_L
+  rotate: false
+  xy: 2, 17
+  size: 69, 95
+  orig: 69, 95
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_arm_R
+  rotate: true
+  xy: 196, 120
+  size: 54, 79
+  orig: 54, 79
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_bottom
+  rotate: false
+  xy: 413, 209
+  size: 54, 45
+  orig: 54, 45
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_hand_L
+  rotate: false
+  xy: 349, 207
+  size: 62, 47
+  orig: 62, 47
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_hand_R
+  rotate: false
+  xy: 2, 114
+  size: 192, 140
+  orig: 192, 140
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_head
+  rotate: false
+  xy: 283, 186
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_hip
+  rotate: false
+  xy: 469, 228
+  size: 41, 26
+  orig: 41, 26
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_leg_L
+  rotate: false
+  xy: 163, 77
+  size: 25, 35
+  orig: 25, 35
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_leg_R
+  rotate: true
+  xy: 349, 182
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_neck
+  rotate: false
+  xy: 73, 56
+  size: 88, 56
+  orig: 88, 56
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_tail
+  rotate: false
+  xy: 73, 19
+  size: 46, 35
+  orig: 46, 35
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_thigh_L
+  rotate: true
+  xy: 121, 2
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_thigh_R
+  rotate: false
+  xy: 121, 29
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+MON100271_AXE MONSTER_top
+  rotate: false
+  xy: 196, 176
+  size: 85, 78
+  orig: 85, 78
+  offset: 0, 0
+  index: -1

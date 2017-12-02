@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="222dp"
+        android:layout_height="129dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:background="@drawable/drawable_are_cancel_list_top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="购买土地"
+                android:textColor="@color/text_white" />
+
+            <ImageView
+                android:id="@+id/img_del"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="2dp"
+                android:padding="5dp"
+                android:src="@mipmap/img_delete" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="222dp"
+            android:layout_height="106dp"
+            android:background="@drawable/drawable_are_cancel_list_bottom"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_sub"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:background="@drawable/drawable_buy_land"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textSize="16sp"
+                    android:textColor="#686868"/>
+                <TextView
+                    android:id="@+id/tv_num"
+                    android:layout_width="50dp"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/drawable_buy_land"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#999999"
+                    />
+                <TextView
+                    android:id="@+id/tv_add"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:background="@drawable/drawable_buy_land"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textSize="16sp"
+                    android:textColor="#686868"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#909090"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_buy"
+                android:layout_width="44dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/drawable_login_button"
+                android:text="购买"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_theme">
+    <include layout="@layout/activity_title"/>
+    <com.pulltorefresh.library.PullToRefreshScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/deposit_pull_scroll"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:id="@+id/bank_list_ll"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="提现到银行卡、支付宝、微信(手续费3%)"/>
+</LinearLayout>
+<com.yskj.welcomeorchard.widget.NoScrollListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/deposit_bank_lv"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="记录"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="18sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/view_line"/>
+        <com.yskj.welcomeorchard.widget.NoScrollListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/deposit_lv"/>
+    </LinearLayout>
+    </LinearLayout>
+    </com.pulltorefresh.library.PullToRefreshScrollView>
+</LinearLayout>

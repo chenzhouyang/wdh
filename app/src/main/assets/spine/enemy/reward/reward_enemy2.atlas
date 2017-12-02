@@ -1,0 +1,160 @@
+
+reward_enemy2.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MON100371-WIZARD-MON100371_WIZARD_arm_L
+  rotate: false
+  xy: 727, 15
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_arm_R
+  rotate: false
+  xy: 683, 15
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_body_bottom
+  rotate: false
+  xy: 300, 38
+  size: 103, 86
+  orig: 103, 86
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_body_top
+  rotate: false
+  xy: 151, 19
+  size: 86, 49
+  orig: 86, 49
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_face_01
+  rotate: false
+  xy: 873, 43
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_face_02
+  rotate: false
+  xy: 298, 12
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_face_03
+  rotate: false
+  xy: 334, 12
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_foot
+  rotate: false
+  xy: 370, 10
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_hand_L
+  rotate: false
+  xy: 989, 67
+  size: 33, 57
+  orig: 33, 57
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_hand_R
+  rotate: false
+  xy: 770, 33
+  size: 58, 34
+  orig: 58, 34
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_head
+  rotate: true
+  xy: 921, 67
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_hip
+  rotate: false
+  xy: 615, 69
+  size: 100, 55
+  orig: 100, 55
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_leg
+  rotate: false
+  xy: 830, 34
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+MON100371-WIZARD-MON100371_WIZARD_wand
+  rotate: true
+  xy: 2, 70
+  size: 54, 147
+  orig: 54, 147
+  offset: 0, 0
+  index: -1
+MON100372-WIZARD-MON100372_WIZARD_body_bottom
+  rotate: false
+  xy: 405, 38
+  size: 103, 86
+  orig: 103, 86
+  offset: 0, 0
+  index: -1
+MON100372-WIZARD-MON100372_WIZARD_head
+  rotate: false
+  xy: 239, 2
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+MON100372-WIZARD-MON100372_WIZARD_hip
+  rotate: false
+  xy: 717, 69
+  size: 100, 55
+  orig: 100, 55
+  offset: 0, 0
+  index: -1
+MON100372-WIZARD-MON100372_WIZARD_wand
+  rotate: true
+  xy: 2, 14
+  size: 54, 147
+  orig: 54, 147
+  offset: 0, 0
+  index: -1
+MON100373-WIZARD-MON100373_WIZARD_body_bottom
+  rotate: false
+  xy: 510, 38
+  size: 103, 86
+  orig: 103, 86
+  offset: 0, 0
+  index: -1
+MON100373-WIZARD-MON100373_WIZARD_head
+  rotate: true
+  xy: 615, 10
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+MON100373-WIZARD-MON100373_WIZARD_hip
+  rotate: false
+  xy: 819, 69
+  size: 100, 55
+  orig: 100, 55
+  offset: 0, 0
+  index: -1
+MON100373-WIZARD-MON100373_WIZARD_wand
+  rotate: true
+  xy: 151, 70
+  size: 54, 147
+  orig: 54, 147
+  offset: 0, 0
+  index: -1

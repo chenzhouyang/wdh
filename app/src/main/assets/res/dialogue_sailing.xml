@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>player</key>
+	<string>主角</string>
+	<key>captain</key>
+	<string>船长</string>
+	<key>player_ask</key>
+	<string>听说你们的船出海经过，闪金岛！</string>
+	<key>captain_answer</key>
+	<string>是要在闪金岛中途停靠补给！</string>
+	<key>player_request</key>
+	<string>那太好了，我要前往闪金岛！</string>
+	<key>captain_ok</key>
+	<string>很高兴和你同行！</string>
+	<key>board</key>
+	<string>上船</string>
+	<key>board_info</key>
+	<string>前往闪金岛</string>
+</dict>
+</plist>

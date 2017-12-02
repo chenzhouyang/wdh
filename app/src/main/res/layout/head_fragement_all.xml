@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <com.bigkoo.convenientbanner.ConvenientBanner xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/convenientBanner"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:canLoop="true" />
+
+    <com.yskj.welcomeorchard.widget.NoScrollGridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:numColumns="5"
+        android:horizontalSpacing="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="13dp"></com.yskj.welcomeorchard.widget.NoScrollGridView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#f3f3f3" />
+    <TextView
+        android:id="@+id/tv_myself"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/head_535353"
+        android:gravity="center"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/img_jijin"
+            android:layout_width="0dp"
+            android:layout_height="196dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_lsk"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/img_ganxibao"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="6dp"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:background="#f3f3f3" />
+    <com.yskj.welcomeorchard.widget.NoScrollListView
+        android:id="@+id/list_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:dividerHeight="11dp"
+        android:divider="#f4f4f4">
+    </com.yskj.welcomeorchard.widget.NoScrollListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#f3f3f3" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:textColor="@color/head_535353"
+            android:drawableLeft="@mipmap/all_fragment_recommend"
+            android:gravity="center"
+            android:text="推荐产品"
+            android:drawablePadding="5dp"
+            />
+    </LinearLayout>
+    <com.yskj.welcomeorchard.widget.NoScrollListView
+        android:id="@+id/list_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null">
+
+    </com.yskj.welcomeorchard.widget.NoScrollListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="#f3f3f3" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:textColor="@color/head_535353"
+            android:gravity="center"
+            android:text="一 精选单品 一"
+            android:drawablePadding="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

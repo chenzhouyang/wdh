@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- 金沙获取来源 -->
+	<key>gold_type_dynamic</key>
+	<string>分享金沙</string>
+	<key>gold_type_static</key>
+	<string>矿机生产</string>
+	<key>gold_type_subsidy</key>
+	<string>补贴金沙</string>
+	<key>gold_type_slag</key>
+	<string>矿渣出售</string>
+	<key>gold_type_unknown</key>
+	<string>未知来源</string>
+	<key>gold_type_sell</key>
+	<string>出售金沙</string>
+	<!-- 消费积分记录类型 -->
+	<key>bonus_in_play_game</key>
+	<string>拘捕游戏奖励</string>
+	<key>bonus_in_sell_gold</key>
+	<string>出售金沙或矿渣</string>
+	<key>bonus_in_onekey_retreat</key>
+	<string>收获一键撤出</string>
+	<key>bonus_out_buy_oil</key>
+	<string>购买燃油</string>
+	<key>bonus_out_onekey_jump</key>
+	<string>一键跳过</string>
+	<key>bonus_out_play_game</key>
+	<string>打听偷金者位置</string>
+	<key>bonus_type_unknown</key>
+	<string>未知类型</string>
+	<!-- 购买燃油 -->
+	<key>buy_oil_verify_title</key>
+	<string>购买燃油</string>
+	<key>buy_oil_verify_content</key>
+	<string>此次购买%d桶燃油需要耗费：</string>
+	<key>buy_oil_verify_info_machine</key>
+	<string>此次租赁矿机耗费%d消费积分%s购买%d桶燃油消耗%d消费积分</string>
+	<key>buy_oil_verify_info_fuel</key>
+	<string>此次购买%d桶燃油%s消耗%d燃油积分</string>
+	<key>buy_oil_verify_info_consume</key>
+	<string>此次购买%d桶燃油%s消耗%d消费积分</string>
+	<key>buy_oil_verify_info</key>
+	<string>此次购买%d桶燃油%s消耗%d燃油积分%s消耗%d消费积分</string>
+	<!-- 采集金沙或矿渣 -->
+	<key>gather_gold_dynamic</key>
+	<string>采集到%sg分享金沙</string>
+	<key>gather_gold_static</key>
+	<string>采集到%sg金沙</string>
+	<key>gather_gold_subsidy</key>
+	<string>采集到%sg补贴金沙</string>
+	<key>gather_gold_slag</key>
+	<string>采集到%sg矿渣</string>
+	<key>gather_unknown</key>
+	<string>采集到%sg未知金沙</string>
+	<!-- 维修矿机 -->
+	<key>repair_machine_success</key>
+	<string>成功维修一次矿机</string>
+	<!-- 物品名称 -->
+	<key>currency_consume</key>
+	<string>消费积分</string>
+	<key>currency_fuel</key>
+	<string>购油积分</string>
+</dict>
+</plist>

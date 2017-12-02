@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupwindow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/root_popupwindow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/root_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:divider="#B8BABE"
+            android:cacheColorHint="@color/white"
+            android:listSelector="@color/white">
+
+        </ListView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sub_popupwindow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <ListView
+            android:id="@+id/sub_listview"
+            android:layout_width="match_parent"
+            android:divider="#B8BABE"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+        </ListView>
+    </FrameLayout>
+
+</LinearLayout>

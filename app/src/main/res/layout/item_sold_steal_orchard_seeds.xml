@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="16dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#a2a2a2"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:maxLines="1"
+            android:paddingLeft="12dp"
+            android:textColor="#a2a2a2"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="36dp"
+            android:layout_height="18dp"
+            android:background="@drawable/drawable_collection"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="出售"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>
