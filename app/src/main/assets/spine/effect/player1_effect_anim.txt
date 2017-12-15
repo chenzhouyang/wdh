@@ -1,5 +1,0 @@
-player1µÄ¹¥»÷ÌØÐ§
-
-scale:0.2
-
-texiao
